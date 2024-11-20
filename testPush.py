@@ -2,6 +2,9 @@
 import request
 
 test = 5
-tet = 10
+teta = 10
 
-print(test+tet)
+print(test+teta)
+
+
+print("Itwillwork")
