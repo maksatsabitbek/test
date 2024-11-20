@@ -6,10 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		04ADBF822CEDEB5100DCEC0B /* testPush.py */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = testPush.py; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		04ADBF7B2CEDEB4200DCEC0B = {
 			isa = PBXGroup;
 			children = (
+				04ADBF822CEDEB5100DCEC0B /* testPush.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -19,7 +24,7 @@
 		04ADBF7C2CEDEB4200DCEC0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1610;
 			};
 			buildConfigurationList = 04ADBF7F2CEDEB4200DCEC0B /* Build configuration list for PBXProject "test" */;
@@ -62,7 +67,7 @@
 				04ADBF812CEDEB4200DCEC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
